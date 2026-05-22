@@ -1,8 +1,34 @@
-# AIRI-Dashboard
-The AIRI Dashboard Prototype is an interactive platform developed to assess the Artificial Intelligence Readiness Index (AIRI) of financial institutions. The system combines machine learning, explainable AI, and interactive visualisation to support AI readiness assessment and decision-making.
+# AIRI Dashboard Prototype
 
-The dashboard evaluates institutional readiness across key areas, including data, technology, governance, organisation, and ethical AI practices. It calculates AIRI scores and classifies institutions into readiness levels such as Nascent, Developing, Established, and Advanced.
+## Artificial Intelligence Readiness Index (AIRI) for Financial Institutions
 
-Developed using Python, Streamlit, Scikit-learn, XGBoost, SHAP, and SDV, the prototype uses a synthetic dataset of 500 financial institutions to simulate realistic AI readiness conditions. The platform also includes predictive modelling, feature importance analysis, sensitivity analysis, radar chart visualisation, and downloadable assessment results.
+The AIRI Dashboard Prototype is an interactive machine learning application designed to assess the AI readiness of financial institutions. The system combines synthetic data generation, machine learning, explainable AI, and visual analytics to support AI readiness evaluation and decision-making.
 
-This project demonstrates how machine learning and explainable analytics can support AI governance and readiness evaluation within the financial sector.
+The dashboard measures readiness across key areas including data, technology, governance, organisation, and ethical AI practices. Using validated AIRI indicators, the platform calculates institutional readiness scores and predicts readiness categories such as Nascent, Developing, Established, and Advanced.
+
+The prototype was developed using Python, Streamlit, Random Forest, XGBoost, SHAP, and SDV. A synthetic dataset containing 500 financial institutions was generated to simulate realistic AI readiness patterns for analysis and model training.
+
+The dashboard includes interactive assessment sliders, AIRI score calculation, machine learning prediction, feature importance analysis, SHAP explainability, radar chart visualisation, sensitivity analysis, and downloadable assessment outputs.
+
+This project demonstrates how machine learning and explainable analytics can support AI governance and readiness assessment within the financial sector.
+
+# Technologies Used
+
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- SHAP
+- Matplotlib
+- SDV
+
+# Project Structure
+AIRI_Dashboard/
+│
+├── app.py
+├── rf_airi_model.pkl
+├── feature_columns.pkl
+├── requirements.txt
+└── README.md
